@@ -1,0 +1,36 @@
+{
+  "name": "anymuse-website",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@fontsource-variable/archivo": "^5.2.5",
+    "@fontsource-variable/inter": "^5.2.5",
+    "@fontsource/instrument-serif": "^5.2.5",
+    "@fontsource/silkscreen": "^5.3.0",
+    "@gsap/react": "^2.1.2",
+    "@supabase/supabase-js": "^2.49.0",
+    "gsap": "^3.13.0",
+    "motion": "^12.0.0",
+    "next": "^15.5.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "resend": "^4.5.0",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.0",
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "sharp": "^0.35.5",
+    "tailwindcss": "^4.1.0",
+    "typescript": "^5"
+  }
+}
